@@ -107,7 +107,7 @@
   /* ---------- Projects page ---------- */
   var projGrid = $("#projGrid");
   if (projGrid) {
-    var hues = [["#2E62F5","#0B1F4B"],["#1A3FBF","#0A0F1F"],["#3B7BFF","#12296B"],["#0B1F4B","#2250E8"],["#2250E8","#0A0F1F"],["#4C86FF","#0B1F4B"]];
+    var hues = [["#12A676","#063B2C"],["#0A6E4E","#0A1512"],["#2DBE8D","#0B4A37"],["#063B2C","#0E8F65"],["#0E8F65","#0A1512"],["#3FC79A","#063B2C"]];
     projGrid.innerHTML = PROJECTS.map(function (p, i) {
       var h = hues[i % hues.length], grid = "", bars = "", k;
       for (k = 0; k < 10; k++) grid += '<path d="M' + (k * 44) + ' 0V190"/>';
